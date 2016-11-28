@@ -1,8 +1,3 @@
-const powerOff = require('power-off');
-const robotjs = require('robotjs'); // @TODO later
+import Server from './src/server';
 
-powerOff((err, stderr, stdout) => {
-  if (!err && !stderr) {
-    console.log(stdout);
-  }
-});
+Server(5000);

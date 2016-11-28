@@ -1,36 +1,36 @@
 {
-  "name": "node_pc_remote",
-  "version": "0.1.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "npm test",
-    "start": "node index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MindFreeze/node_pc_remote.git"
-  },
-  "keywords": [
-    "nodejs",
-    "remote",
-    "macro"
-  ],
-  "author": "Peter Petrov",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/MindFreeze/node_pc_remote/issues"
-  },
-  "homepage": "https://github.com/MindFreeze/node_pc_remote#readme",
-  "dependencies": {
-    "power-off": "^1.1.0",
-    "robotjs": "^0.4.5"
-  },
-  "devDependencies": {
-    "eslint": "^3.10.2",
-    "eslint-config-airbnb": "^13.0.0",
-    "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jsx-a11y": "^2.2.3",
-    "eslint-plugin-react": "^6.7.1"
-  }
+    "name": "node_pc_remote",
+    "version": "0.1.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "npm test",
+        "start": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MindFreeze/node_pc_remote.git"
+    },
+    "keywords": [
+        "nodejs",
+        "remote",
+        "macro"
+    ],
+    "author": "Peter Petrov",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/MindFreeze/node_pc_remote/issues"
+    },
+    "homepage": "https://github.com/MindFreeze/node_pc_remote#readme",
+    "dependencies": {
+        "power-off": "^1.1.0",
+        "robotjs": "^0.4.5"
+    },
+    "devDependencies": {
+        "eslint": "^3.10.2",
+        "eslint-config-airbnb": "^13.0.0",
+        "eslint-plugin-import": "^2.2.0",
+        "eslint-plugin-jsx-a11y": "^2.2.3",
+        "eslint-plugin-react": "^6.7.1"
+    }
 }
