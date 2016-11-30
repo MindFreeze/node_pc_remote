@@ -1,7 +1,8 @@
-const powerOff = require('power-off');
+import powerOff from 'power-off';
 
-powerOff((err, stderr, stdout) => {
-    if (!err && !stderr) {
-        console.log(stdout);
-    }
-});
+export default (req, done) => {
+    powerOff((err, stderr, stdout) => {
+        console.log(err, stderr, stdout);
+        done(err);
+    });
+};

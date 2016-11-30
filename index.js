@@ -1,3 +1,6 @@
 import Server from './src/server';
 
-Server(5000);
+const PORT = 5000;
+Server(PORT, () => {
+    console.info(`Server listening on port ${PORT}`);
+});
